@@ -7,7 +7,7 @@ const Logo = () => {
       <img
         src={MainLogo}
         alt="Main Logo"
-        className="w-[70px] h-[50px] rounded-2xl"
+        className="w-[100px] h-[50px] object-contain rounded-2xl"
       />
     </>
   );

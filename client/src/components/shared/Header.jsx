@@ -95,11 +95,9 @@ const Header = ({ toggleSidebar }) => {
               <span className="sr-only">Open sidebar</span>
               <Menu className="w-6 h-6" />
             </button>
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/posts" className="flex items-center space-x-2">
               <span className="font-bold lg:text-xl sm:text-md text-primary">
-                {lang === "en"
-                  ? "Metabread – Your AI-Powered Social Assistant"
-                  : "메타브래드 - AI 소셜미디어 어시스턴트"}
+                {lang === "en" ? "Notrick" : "노트릭"}
               </span>
             </Link>
           </div>
