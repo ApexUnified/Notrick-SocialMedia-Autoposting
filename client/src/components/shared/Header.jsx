@@ -97,7 +97,7 @@ const Header = ({ toggleSidebar }) => {
             </button>
             <Link to="/posts" className="flex items-center space-x-2">
               <span className="font-bold lg:text-xl sm:text-md text-primary">
-                {lang === "en" ? "Notrick" : "노트릭"}
+                {lang === "en" ? "NoTrick" : "노트릭"}
               </span>
             </Link>
           </div>
