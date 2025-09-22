@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, onClose }) => {
           {/* Close button for mobile */}
           <div className="flex items-center justify-between h-16 px-4 border-b lg:hidden">
             <span className="text-xl font-bold text-primary">
-              Hospital Social
+              NoTrick
             </span>
             <button
               onClick={onClose}
